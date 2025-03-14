@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #01162d;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 60vh;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+.container {
+  width: 60vh;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Buttons */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Delete Button */
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Form */
+input {
+  width: 60vh;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Travel Packages */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+ 
+}
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 60vh;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.booking-form button:hover {
+  background-color: #218838;
+}
